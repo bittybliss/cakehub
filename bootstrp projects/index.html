@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cakewala</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-warning fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white fw-bold" href="#"><h2>Cake Couture</h2></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions ">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#order">Orders</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Main Items
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Birthday Cakes</a></li>
+              <li><a class="dropdown-item" href="#">Pastries</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Desserts</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#footer">Location</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="cake1.jpg" class="slide d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Happiness in every slice</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="cake2.jpg" class="slide d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+    
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="cake3.jpg" class=" slide d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+ 
+  <div class="container" id="order">
+    <h1 class="text-center">Order your Cakes Now</h1>
+    <div class="row">
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <img src="vanila.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Vanila Cakes</h5>
+            <p class="card-text">Vanila cakes with fruits and dry fruits 1kg</p>
+            <h5 class="card-title text-danger">Rs:600.00</h5>
+            <a href="#" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <img src="black-forest-cakes.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Black Forest</h5>
+            <p class="card-text">Black forest cake with chocolate tops and cherry 1kg</p>
+            <h5 class="card-title text-danger">Rs:800.00</h5>
+            <a href="#" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <img src="vancho.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Vancho</h5>
+            <p class="card-text">Delightful complexion of Vanilla and Dark chocolate soft sponge filled in Rich Chocolate cream and completely blended in Dark, White Truffle 1kg</p>
+            <h5 class="card-title text-danger">Rs:900.00</h5>
+            <a href="#" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <img src="assortment-pieces-cake.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pastries</h5>
+            <p class="card-text"> Delicious Pastries Available Now! Order Today!</p>
+            <h5 class="card-title text-danger">Rs:250.00</h5>
+            <a href="#" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <img src="donuts.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Donuts</h5>
+            <p class="card-text">"Delicious Donuts for You!""Satisfy Your Cravings with Fresh Donuts!"
+
+              </p>
+            <h5 class="card-title text-danger">Rs:200.00</h5>
+            <a href="#" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <img src="cupcakes.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cup Cakes</h5>
+            <p class="card-text">"Delicious cupcakes for every occasion! Order now!"</p>
+            <h5 class="card-title text-danger">Rs:150.00</h5>
+            <a href="#" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-warning" id="footer">
+    <div class="row">
+      <h1 class="text-center">Location</h1>
+      <div class="col-6">
+<h1 class="text-white">cake couture now at</h1>
+<h5>kannur</h5>
+<h5>kozhikode</h5>
+<p>Tel:9611393239</p>
+<p>email:cakecouture23@gmail.com</p>
+      </div>
+      <div class="col-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d108145.57950936886!2d75.3544716425121!3d11.865227774116038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1687517902856!5m2!1sen!2sin" width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
